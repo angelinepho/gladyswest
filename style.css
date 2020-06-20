@@ -48,8 +48,9 @@ img {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
+  display: inline-block;
   width: 50%;
+  font-size: 1em;
 }
 
 .more{
