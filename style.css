@@ -6,6 +6,16 @@ body {
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: 'Staatliches', cursive;
+  color: #c70039;
+}
+
+.name {
+  font-family: 'Staatliches', cursive;
+  color: #f37121;
+}
+
+.description {
+  font-family: 'Staatliches', cursive;
+  color: #ffbd69;
 }
