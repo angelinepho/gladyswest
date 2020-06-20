@@ -3,6 +3,11 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  text-align: center;
+}
+
+.spacing {
+  margin: 2em;
 }
 
 h1 {
@@ -19,4 +24,35 @@ h1 {
   font-family: 'Staatliches', cursive;
   color: #ffbd69;
   font-size: 150%;
+}
+
+img {
+  margin: 2em;
+}
+
+.headshot {
+  width: 50%;
+}
+
+.working {
+  width: 50%;
+}
+
+.award {
+  width: 50%;
+}
+
+.shop-now-btn{
+  float: left;
+  border: 3px solid #900c3f;
+  background-color: #ffcac2;
+  color: #900c3f;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.shop-now-btn:hover {
+  background: #900c3f;
+  color: #ffcac2;
 }
