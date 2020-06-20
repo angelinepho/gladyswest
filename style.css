@@ -4,24 +4,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   text-align: center;
-  
-  #top, #bottom, #left, #right {
-	background-image: url();
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-	}
-	#left { left: 0; }
-	#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-	}
-	#top { top: 0; }
-	#bottom { bottom: 0; }
+  border-radius: 20px;
 }
 
 .spacing {
@@ -47,21 +30,22 @@ h1 {
 img {
   margin: 2em;
   border-radius: 20px;
+  border: 3px solid #111d5e;
 }
 
 .headshot {
-  width: 50%;
+  width: 55%;
 }
 
 .working {
-  width: 50%;
+  width: 55%;
 }
 
 .award {
-  width: 50%;
+  width: 55%;
 }
 
-.shop-now-btn{
+.more{
   font-family: 'Staatliches', cursive;
   border-radius: 20px;
   text-align: center;
@@ -73,7 +57,7 @@ img {
   cursor: pointer;
 }
 
-.shop-now-btn:hover {
+.more:hover {
   background: #c70039;
   color: #ffbd69;
 }
