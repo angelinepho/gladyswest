@@ -1,33 +1,37 @@
 /* CSS files add styling rules to your content */
 
-#top, #left {
-  background: #c70039;
-	position: fixed;
-}
-
-#bottom, #right {
-	background: #111d5e;
-	position: fixed;
-}
-
-#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-
-
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  padding: 20px;
+	overflow-x: hidden;
+	-webkit-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	-moz-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
 }
 
 h1 {
