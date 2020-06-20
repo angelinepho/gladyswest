@@ -46,6 +46,12 @@ img {
   width: 55%;
 }
 
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  width: 50%;
+}
+
 .more{
   margin: .5em 2em .5em 2em;
   font-family: 'Staatliches', cursive;
