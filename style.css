@@ -4,6 +4,24 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   text-align: center;
+  
+  #top, #bottom, #left, #right {
+	background-image: url();
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+	}
+	#left { left: 0; }
+	#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+	}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
 }
 
 .spacing {
@@ -28,6 +46,7 @@ h1 {
 
 img {
   margin: 2em;
+  border-radius: 20px;
 }
 
 .headshot {
@@ -43,16 +62,18 @@ img {
 }
 
 .shop-now-btn{
-  float: left;
-  border: 3px solid #900c3f;
-  background-color: #ffcac2;
-  color: #900c3f;
+  font-family: 'Staatliches', cursive;
+  border-radius: 20px;
+  text-align: center;
+  border: 3px solid #c70039;
+  background-color: #ffbd69;
+  color: #c70039;
   padding: 14px 28px;
   font-size: 30px;
   cursor: pointer;
 }
 
 .shop-now-btn:hover {
-  background: #900c3f;
-  color: #ffcac2;
+  background: #c70039;
+  color: #ffbd69;
 }
