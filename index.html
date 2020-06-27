@@ -21,12 +21,16 @@
     <!-- import google font Sans -->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     
+    <!-- Mapbox -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    
   </head>
   
 
   <body>
     
-    <div class="spacing">
+    <div class="title-spacing">
       <h1>
       <span class="description">Meet </span>
       <span class="name"> Gladys West, </span>
@@ -88,6 +92,17 @@
         <span class="name"> Gladys West!</span>
       </h1>
     </div>
-
+    
+    <div class="map-spacing">
+      <div id="map"></div>
+      <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYXBobzg4ODQiLCJhIjoiY2tieDFkaGtlMDZoYTJ3cGs4YmNyZW5pbSJ9.f3Ig0h5PM5KGX2SKLb7UUQ';
+        var map = new mapboxgl.Map({
+           container: 'map',
+           style: 'mapbox://styles/mapbox/streets-v11'
+        });
+      </script>
+    </div>
+    
   </body>
 </html>
